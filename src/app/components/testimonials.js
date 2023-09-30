@@ -13,10 +13,10 @@ const Testimonials = () => {
         <h1 className="mt-8 text-4xl font-bold">What Our Customers </h1>
         <h1 className="mt-2 text-4xl font-bold">Say About Us</h1>
         <p className="mt-6">
-          "I had the Pleasure of dining at Foodi last night, and"
+          &quot;I had the Pleasure of dining at Foodi last night, and&quot;
         </p>
-        <p>I'm still raving about the experience! The attention to</p>
-        <p>detail in presentation and service was impeccable"</p>
+        <p>I&apos;m still raving about the experience! The attention to</p>
+        <p>detail in presentation and service was impeccable&quot;</p>
         <FeedbackSection />
       </div>
       
