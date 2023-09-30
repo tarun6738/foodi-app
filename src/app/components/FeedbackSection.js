@@ -1,27 +1,33 @@
 import React from "react";
-
+import Image from "next/image"
 const FeedbackSection = () => {
   return (
     <div className="mt-4 flex items-center space-x-4">
       {/* Circular images */}
       <div className="relative">
-        <img
+        <Image
           src="/female1.png"
           alt="Image 1"
+          width={64}
+          height={64}
           className="w-16 h-16 object-cover rounded-full transform translate-x-[-10px]"
         />
       </div>
       <div className="relative">
-        <img
+        <Image
           src="/female2.png"
           alt="Image 2"
+          width={64}
+          height={64}
           className="w-16 h-16 object-cover rounded-full transform translate-x-[-5px]"
         />
       </div>
       <div className="relative">
-        <img
+        <Image
           src="/male1.png"
           alt="Image 3"
+          width={64}
+          height={64}
           className="w-16 h-16 object-cover rounded-full"
         />
       </div>

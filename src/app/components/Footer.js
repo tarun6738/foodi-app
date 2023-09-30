@@ -3,6 +3,7 @@ import { FiFacebook } from "react-icons/fi";
 import { BsInstagram } from "react-icons/bs";
 import { AiOutlineYoutube, AiOutlineCopyrightCircle } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
+import { PiBowlFood } from 'react-icons/pi';
 const Footer = () => {
   return (
     <>
@@ -65,6 +66,7 @@ const Footer = () => {
     <div className="bg-green-300 rounded-full w-12 h-12 flex items-center justify-center">
       <AiOutlineYoutube className="text-black text-3xl" />
     </div>
+    
     <div className="" style={{ display: 'flex', alignItems: 'center', marginLeft:'195px'}}>
   Copyright <AiOutlineCopyrightCircle /> 2023 Tarun | All rights reserved
 </div>

@@ -1,14 +1,16 @@
 import React from "react";
-
+import Image from "next/image"
 const StandoutCard = (props) => {
   return (
     <div className="w-80 bg-white border border-gray-300 rounded-lg shadow-md overflow-hidden">
       
       <div className="flex justify-center h-48">
-        <img
+        <Image
           src={props.imagesrc} 
           alt="Product"
-          className="object-cover"
+          width={176}
+          height={276}
+          className="h-48 object-cover"
         />
       </div>
 

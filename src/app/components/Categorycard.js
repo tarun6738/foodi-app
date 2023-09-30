@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from "next/image"
 const Categorycard = (props) => {
   const cardStyles = {
     
@@ -8,9 +8,11 @@ const Categorycard = (props) => {
   return (
     <div className="w-56 h-52 sm:w-72 sm:h-72 relative border border-gray-300 rounded-2xl shadow-lg" style={cardStyles}>
       <div className="w-24 h-24 bg-green-500 rounded-full mx-auto mt-[-12px] sm:mt-[16px]">
-        <img
+        <Image
           src={props.imagesource}
           alt="Category Image"
+          width={80}
+          height={80}
           className="w-20 h-20 object-cover rounded-full absolute inset-0 m-auto mt-[-12px] sm:mt-[24px]"
         />
       </div>
